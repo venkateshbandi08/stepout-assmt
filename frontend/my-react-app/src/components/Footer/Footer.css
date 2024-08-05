@@ -1,0 +1,12 @@
+.home-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .home-footer nav a {
+    color: white;
+    text-decoration: none;
+  }
+  

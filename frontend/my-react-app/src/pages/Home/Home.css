@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; 
+  }
+  .home-hero {
+    background-image: url('/path-to-your-image.jpg'); /* Add your image */
+    background-size: cover;
+    padding: 5rem;
+    text-align: center;
+    color: white;
+  }
+  
+  .cta-button {
+    background-color: #ff6200;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .home-features {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+  }
+  
+  .feature {
+    text-align: center;
+  }
+  
+  .feature-link {
+    display: block;
+    margin-top: 1rem;
+    color: #ff6200;
+    text-decoration: none;
+  }
+  
+  
